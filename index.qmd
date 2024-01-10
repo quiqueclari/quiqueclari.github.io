@@ -1,0 +1,36 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/my_image.jpg"
+  links:
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=f5PXRCsAAAAJ&hl=es
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/quiqueclari1
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/enrique-clari-galán-012428124/
+    - icon: envelope
+      text: enrique.clari@uam.es
+---
+
+::: {#about-block}
+:::
+
+# Welcome to my website!
+
+Hi there! My name is Quique (short for Enrique) Clari and I am a "la Caixa" INPhINIT predoctoral researcher and a PhD candidate at the Autonomous University of Madrid (UAM) in the Department of Political Science and International Relations. I graduated in Law and Political Science at the University of Valencia (UV) and hold a master degree in Political Theory from the London School of Economics (LSE). In my PhD project, directed by Guillermo Cordero (UAM) and Enrique Hernández (UAB), I research Europeans' attitudes towards democracy, focusing in particular on the question whether public support for liberal values and principles has declined in the last decade.
+
+On this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about me and my work.
+
+Please feel free to [contact me](mailto:mail.enrique.clari@uam.es) if you have any questions or would like to discuss potential projects.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://orcid.org/0000-0002-2941-0332" role="button" target="_blank" style="padding: 15px 30px;">Link to ORCID profile</a>
+</div>
+```
+

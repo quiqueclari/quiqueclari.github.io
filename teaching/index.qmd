@@ -1,0 +1,16 @@
+---
+title: Teaching
+---
+
+### Teaching Assistant BA Level
+
+**Teorías de la Democracia** (winter term 2023, Universidad Autónoma de Madrid)
+
+**Técnicas de Investigación en Ciencia Política** (winter term 2022, Universidad Autónoma de Madrid)
+
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://orcid.org/0000-0002-2941-0332" role="button" target="_blank" style="padding: 15px 30px;">Link to ORCID profile</a>
+</div>
+```

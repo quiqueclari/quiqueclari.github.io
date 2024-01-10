@@ -1,0 +1,74 @@
+---
+title: Publications
+---
+
+### Peer-Reviewed Articles
+
+----
+
+**García-Rivero, Carlos & Clari, Enrique (2023)**: “Ethnicity and governing party support in Africa: A longitudinal multilevel analysis”, *Party Politics*, 29(2):322-334.
+
+<a href="https://journals.sagepub.com/doi/abs/10.1177/13540688211064969" target="_blank">Link</a> | <a href="https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/357571122_Ethnicity_and_governing_party_support_in_Africa_A_longitudinal_multilevel_analysis/links/61d729adb8305f7c4b284341/Ethnicity-and-governing-party-support-in-Africa-A-longitudinal-multilevel-analysis.pdf" target="_blank">Ungated</a><br>
+
+----
+
+**Arias Maldonado, Manuel, Olivas-Osuna, José Javier, and Clari, Enrique (2022)**: “Collective Narcissism, Populism and Political Profiles in Andalusia and Catalonia”, *Revista CENTRA de Ciencias Sociales*, 1(2).
+
+<a href="https://centracs.es/revista/article/view/25" target="_blank">Link</a> 
+
+----
+
+**García-Rivero, Carlos, Clari, Enrique, and Martín-Cubas, Joaquín (2021)**: “Islamist Political Parties and Parliamentary Representation in the Middle East and North Africa”, *Comparative Sociology*, 20(4), 441-47.
+
+<a href="https://brill.com/view/journals/coso/20/4/article-p441_2.xml" target="_blank">Link</a> | <a href="https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/355466574_Islamist_Political_Parties_and_Parliamentary_Representation_in_the_Middle_East_and_North_Africa/links/61717b5fc10b387664ccf1b0/Islamist-Political-Parties-and-Parliamentary-Representation-in-the-Middle-East-and-North-Africa.pdf" target="_blank">Ungated</a><br> 
+
+----
+
+### Book Chapters
+
+----
+
+**Clari, Enrique & García-Rivero, Carlos (2023)**: “Quality of Democracy in Europe”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 15--35, CEU Press.
+
+<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+
+----
+
+**Clari, Enrique (2023)**: “Mapping European Populism and Its Association with Anti-Pluralism:
+Descriptive Evidence in Time and Space”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 51--74, CEU Press.
+
+<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+
+----
+
+**Clari, Enrique & García-Rivero, Carlos (2023)**: “The Limits of Democratic Competition:
+Time-Series, Cross-Sectional Evidence of the Asymmetrical Impact of Polarization on
+Europeans’ Political Attitudes and Behavior”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 99--124, CEU Press.
+
+<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+
+----
+
+**Clari, Enrique & García-Rivero, Carlos (2022)**: “Desafección política y valores autoritarios durante la tercera ola de autocratización”, in Ángel Valencia-Sáiz & Belén Fernández-García, (eds): *En los márgenes de la democracia liberal: populismo, nacionalismo y radicalismo ideológico en Europa*, pp. 259--281, Granada: Comares. 
+
+<a href="https://www.comares.com/libro/en-los-margenes-de-la-democracia-liberal_143816/" target="_blank">Link</a> 
+
+----
+
+**García-Rivero, Carlos, Martín-Cubas, Joaquín, and Clari, Enrique (2021)**: “Un siglo de elecciones e Islam político en el Norte de África y Oriente Medio”, in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 105--120, Valencia: Tirant Lo Blanch.
+
+<a href="https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713" target="_blank">Link</a> 
+
+----
+
+**García-Rivero, Carlos, Kotzè, Hennie, and Clari, Enrique (2021)**: “Democracia en África”, in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 285-301, Valencia: Tirant Lo Blanch.
+
+<a href="https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713" target="_blank">Link</a> 
+
+----
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://orcid.org/0000-0002-2941-0332" role="button" target="_blank" style="padding: 15px 30px;">Link to ORCID profile</a>
+</div>
+```
