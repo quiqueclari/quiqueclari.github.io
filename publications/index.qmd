@@ -2,73 +2,313 @@
 title: Publications
 ---
 
-### Peer-Reviewed Articles
+<!-- Publication list synchronized with the full academic CV, 23 October 2026.
+The Spain dataset uses the version-specific DOI, as in the NOFAPODE CV. -->
 
-----
+::: {.publication-nav}
+[Articles](#articles) [Book chapters](#chapters) [Datasets](#datasets) [Reports](#reports)
+:::
 
-**García-Rivero, Carlos & Clari, Enrique (2023)**: “Ethnicity and governing party support in Africa: A longitudinal multilevel analysis”, *Party Politics*, 29(2):322-334.
+::::::: {.publication-section}
+## Peer-Reviewed Articles {#articles}
 
-<a href="https://journals.sagepub.com/doi/abs/10.1177/13540688211064969" target="_blank">Link</a> | <a href="https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/357571122_Ethnicity_and_governing_party_support_in_Africa_A_longitudinal_multilevel_analysis/links/61d729adb8305f7c4b284341/Ethnicity-and-governing-party-support-in-Africa-A-longitudinal-multilevel-analysis.pdf" target="_blank">Ungated</a><br>
+:::::: {.publication-entry}
+::: {.publication-year}
+2025
+:::
+::::: {.publication-body}
+### [Varieties of Populist Attitudes in Brexit Britain: Socio-Political and Psychological Correlates of a New Multi-dimensional Scale](https://doi.org/10.1177/00323217241309962)
 
-----
+Olivas Osuna, José Javier, Martín, Manuel, Barrada, Juan Ramón, Moyano, Manuel, and Clari, Enrique
 
-**Arias Maldonado, Manuel, Olivas-Osuna, José Javier, and Clari, Enrique (2022)**: “Collective Narcissism, Populism and Political Profiles in Andalusia and Catalonia”, *Revista CENTRA de Ciencias Sociales*, 1(2).
+::: {.publication-venue}
+*Political Studies*, 73(4), 1675–1697.
+:::
 
-<a href="https://centracs.es/revista/article/view/25" target="_blank">Link</a> 
+::: {.publication-links}
+[Article · Open access](https://doi.org/10.1177/00323217241309962)
+:::
+:::::
+::::::
 
-----
+:::::: {.publication-entry}
+::: {.publication-year}
+2023
+:::
+::::: {.publication-body}
+### [Ethnicity and governing party support in Africa: A longitudinal multilevel analysis](https://doi.org/10.1177/13540688211064969)
 
-**García-Rivero, Carlos, Clari, Enrique, and Martín-Cubas, Joaquín (2021)**: “Islamist Political Parties and Parliamentary Representation in the Middle East and North Africa”, *Comparative Sociology*, 20(4), 441-47.
+García-Rivero, Carlos & Clari, Enrique
 
-<a href="https://brill.com/view/journals/coso/20/4/article-p441_2.xml" target="_blank">Link</a> | <a href="https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/355466574_Islamist_Political_Parties_and_Parliamentary_Representation_in_the_Middle_East_and_North_Africa/links/61717b5fc10b387664ccf1b0/Islamist-Political-Parties-and-Parliamentary-Representation-in-the-Middle-East-and-North-Africa.pdf" target="_blank">Ungated</a><br> 
+::: {.publication-venue}
+*Party Politics*, 29(2):322-334.
+:::
 
-----
+::: {.publication-links}
+[Article](https://doi.org/10.1177/13540688211064969) [Open access](https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/357571122_Ethnicity_and_governing_party_support_in_Africa_A_longitudinal_multilevel_analysis/links/61d729adb8305f7c4b284341/Ethnicity-and-governing-party-support-in-Africa-A-longitudinal-multilevel-analysis.pdf)
+:::
+:::::
+::::::
 
-### Book Chapters
+:::::: {.publication-entry}
+::: {.publication-year}
+2022
+:::
+::::: {.publication-body}
+### [Collective Narcissism, Populism and Political Profiles in Andalusia and Catalonia](https://doi.org/10.54790/rccs.25)
 
-----
+Arias Maldonado, Manuel, Olivas-Osuna, José Javier, and Clari, Enrique
 
-**Clari, Enrique & García-Rivero, Carlos (2023)**: “Quality of Democracy in Europe”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 15--35, CEU Press.
+::: {.publication-venue}
+*Revista CENTRA de Ciencias Sociales*, 1(2), 121–138.
+:::
 
-<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+::: {.publication-links}
+[Article](https://doi.org/10.54790/rccs.25)
+:::
+:::::
+::::::
 
-----
+:::::: {.publication-entry}
+::: {.publication-year}
+2021
+:::
+::::: {.publication-body}
+### [Islamist Political Parties and Parliamentary Representation in the Middle East and North Africa](https://doi.org/10.1163/15691330-bja10038)
 
-**Clari, Enrique (2023)**: “Mapping European Populism and Its Association with Anti-Pluralism:
-Descriptive Evidence in Time and Space”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 51--74, CEU Press.
+García-Rivero, Carlos, Clari, Enrique, and Martín-Cubas, Joaquín
 
-<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+::: {.publication-venue}
+*Comparative Sociology*, 20(4), 441–472.
+:::
 
-----
+::: {.publication-links}
+[Article](https://doi.org/10.1163/15691330-bja10038) [Open access](https://www.researchgate.net/profile/Carlos-Garcia-Rivero/publication/355466574_Islamist_Political_Parties_and_Parliamentary_Representation_in_the_Middle_East_and_North_Africa/links/61717b5fc10b387664ccf1b0/Islamist-Political-Parties-and-Parliamentary-Representation-in-the-Middle-East-and-North-Africa.pdf)
+:::
+:::::
+::::::
 
-**Clari, Enrique & García-Rivero, Carlos (2023)**: “The Limits of Democratic Competition:
-Time-Series, Cross-Sectional Evidence of the Asymmetrical Impact of Polarization on
-Europeans’ Political Attitudes and Behavior”, in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 99--124, CEU Press.
+:::::::
 
-<a href="https://ceupress.com/book/democracy-fatigue" target="_blank">Link</a> 
+::::::: {.publication-section}
+## Book Chapters {#chapters}
 
-----
+:::::: {.publication-entry}
+::: {.publication-year}
+2024
+:::
+::::: {.publication-body}
+### [Populist Attitudes and Radical Activism in the USA](https://doi.org/10.4324/9781003457381-3)
 
-**Clari, Enrique & García-Rivero, Carlos (2022)**: “Desafección política y valores autoritarios durante la tercera ola de autocratización”, in Ángel Valencia-Sáiz & Belén Fernández-García, (eds): *En los márgenes de la democracia liberal: populismo, nacionalismo y radicalismo ideológico en Europa*, pp. 259--281, Granada: Comares. 
+Olivas Osuna, José Javier, Clari, Enrique, and Bélanger, Jocelyn J.
 
-<a href="https://www.comares.com/libro/en-los-margenes-de-la-democracia-liberal_143816/" target="_blank">Link</a> 
+::: {.publication-venue}
+In Katie Jane Patterson and Encarnación Hidalgo-Tenorio (eds.), *Multidisciplinary Approaches to the Discourses of Extremism*, pp. 32–53. Routledge.
+:::
 
-----
+::: {.publication-links}
+[Chapter](https://doi.org/10.4324/9781003457381-3)
+:::
+:::::
+::::::
 
-**García-Rivero, Carlos, Martín-Cubas, Joaquín, and Clari, Enrique (2021)**: “Un siglo de elecciones e Islam político en el Norte de África y Oriente Medio”, in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 105--120, Valencia: Tirant Lo Blanch.
+:::::: {.publication-entry}
+::: {.publication-year}
+2023
+:::
+::::: {.publication-body}
+### [Quality of Democracy in Europe](https://ceupress.com/book/democracy-fatigue)
 
-<a href="https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713" target="_blank">Link</a> 
+Clari, Enrique & García-Rivero, Carlos
 
-----
+::: {.publication-venue}
+in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 15--35, CEU Press.
+:::
 
-**García-Rivero, Carlos, Kotzè, Hennie, and Clari, Enrique (2021)**: “Democracia en África”, in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 285-301, Valencia: Tirant Lo Blanch.
+::: {.publication-links}
+[Book](https://ceupress.com/book/democracy-fatigue)
+:::
+:::::
+::::::
 
-<a href="https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713" target="_blank">Link</a> 
+:::::: {.publication-entry}
+::: {.publication-year}
+2023
+:::
+::::: {.publication-body}
+### [Mapping European Populism and Its Association with Anti-Pluralism: Descriptive Evidence in Time and Space](https://ceupress.com/book/democracy-fatigue)
 
-----
+Clari, Enrique
 
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://orcid.org/0000-0002-2941-0332" role="button" target="_blank" style="padding: 15px 30px;">Link to ORCID profile</a>
-</div>
-```
+::: {.publication-venue}
+in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 51--74, CEU Press.
+:::
+
+::: {.publication-links}
+[Book](https://ceupress.com/book/democracy-fatigue)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2023
+:::
+::::: {.publication-body}
+### [The Limits of Democratic Competition: Time-Series, Cross-Sectional Evidence of the Asymmetrical Impact of Polarization on Europeans’ Political Attitudes and Behavior](https://ceupress.com/book/democracy-fatigue)
+
+Clari, Enrique & García-Rivero, Carlos
+
+::: {.publication-venue}
+in Carlos García-Rivero (ed.): *Democracy Fatigue: An East European Epidemy*, pp. 99--124, CEU Press.
+:::
+
+::: {.publication-links}
+[Book](https://ceupress.com/book/democracy-fatigue)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2022
+:::
+::::: {.publication-body}
+### [Desafección política y valores autoritarios durante la tercera ola de autocratización](https://www.comares.com/libro/en-los-margenes-de-la-democracia-liberal_143816/)
+
+Clari, Enrique & García-Rivero, Carlos
+
+::: {.publication-venue}
+in Ángel Valencia-Sáiz & Belén Fernández-García, (eds): *En los márgenes de la democracia liberal: populismo, nacionalismo y radicalismo ideológico en Europa*, pp. 259–280, Granada: Comares.
+:::
+
+::: {.publication-links}
+[Book](https://www.comares.com/libro/en-los-margenes-de-la-democracia-liberal_143816/)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2020
+:::
+::::: {.publication-body}
+### [Un siglo de elecciones e Islam político en el Norte de África y Oriente Medio](https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713)
+
+García-Rivero, Carlos, Martín-Cubas, Joaquín, and Clari, Enrique
+
+::: {.publication-venue}
+in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 105--120, Valencia: Tirant Lo Blanch.
+:::
+
+::: {.publication-links}
+[Book](https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2020
+:::
+::::: {.publication-body}
+### [Democracia en África](https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713)
+
+García-Rivero, Carlos, Kotzè, Hennie, and Clari, Enrique
+
+::: {.publication-venue}
+in Carlos García-Rivero & Joaquín Martín-Cubas, (eds): *Política y Gobierno en el Norte de África y Oriente Medio después de la Primavera Árabe*, pp. 285-301, Valencia: Tirant Lo Blanch.
+:::
+
+::: {.publication-links}
+[Book](https://editorial.tirant.com/es/libro/el-norte-de-africa-y-oriente-medio-una-decada-despues-de-la-primavera-arabe-carlos-garcia-rivero-9788418534713)
+:::
+:::::
+::::::
+
+:::::::
+
+::::::: {.publication-section}
+## Datasets {#datasets}
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2026
+:::
+::::: {.publication-body}
+### [Socio-political attitudes in Brazil (2023)](https://doi.org/10.5281/zenodo.20559913)
+
+Olivas Osuna, José Javier, Ramiro, Luis, Vasilopoulou, Sofia, Halikiopoulou, Daphne, Zanotti, Lisa, Santana, Andrés, Rama, José, Clari, Enrique, and Gómez, Raul
+
+::: {.publication-venue}
+Zenodo · Version V1.
+:::
+
+::: {.publication-links}
+[Dataset](https://doi.org/10.5281/zenodo.20559913)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2024
+:::
+::::: {.publication-body}
+### [Socio-political attitudes in Spain (2023)](https://doi.org/10.5281/zenodo.12706315)
+
+Olivas Osuna, José Javier, Ramiro, Luis, Vasilopoulou, Sofia, Halikiopoulou, Daphne, Zanotti, Lisa, Santana, Andrés, Rama, José, Clari, Enrique, and Gómez, Raul
+
+::: {.publication-venue}
+Zenodo · Version V1. A dataset based on an original survey conducted by YouGov.
+:::
+
+::: {.publication-links}
+[Dataset](https://doi.org/10.5281/zenodo.12706315)
+:::
+:::::
+::::::
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2022
+:::
+::::: {.publication-body}
+### [Actitudes sociales y políticas en Andalucía: entrevista telefónica a 1500 personas sobre populismo, inmigración, modelo territorial, instituciones españolas, pensamiento conspirativo, activismo, narcisismo colectivo y lengua](https://doi.org/10.5281/zenodo.7197810)
+
+Olivas Osuna, José Javier, Arias Maldonado, Manuel, Hidalgo-Tenorio, Encarnación, Moyano, Manuel, Llorca Asensi, Elena, Barrio, Astrid, and Clari, Enrique
+
+::: {.publication-venue}
+Zenodo · Version v1.
+:::
+
+::: {.publication-links}
+[Dataset](https://doi.org/10.5281/zenodo.7197810)
+:::
+:::::
+::::::
+
+:::::::
+
+::::::: {.publication-section}
+## Reports {#reports}
+
+:::::: {.publication-entry}
+::: {.publication-year}
+2024
+:::
+::::: {.publication-body}
+### [Informe sobre la Justicia Administrativa 2024](https://cija-uam.org/wp-content/uploads/2024/12/Informe_CIJA_2024_VersionWEB.pdf)
+
+César Martínez Sánchez (director); Enrique Clari (coordinator).
+
+::: {.publication-venue}
+Centro de Investigación sobre Justicia Administrativa, Universidad Autónoma de Madrid (CIJA-UAM).
+:::
+
+::: {.publication-links}
+[Report (PDF)](https://cija-uam.org/wp-content/uploads/2024/12/Informe_CIJA_2024_VersionWEB.pdf)
+:::
+:::::
+::::::
+:::::::

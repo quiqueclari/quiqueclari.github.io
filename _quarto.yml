@@ -1,73 +1,77 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
-
-# website settings
-website:
-  title: "Quique Clari"                                # Your name
-  description: "Predoctoral Researcher in Political Science at UAM"   # A brief slogan (optional)
-  image: img/my_image.jpg
-  
-  favicon: img/favicon.png
-  
-  # start of the navigation bar at the top of the website
-  navbar:
-    pinned: true
-    logo: /img/logo.png
-    
-    # your sub-pages
-    left:
-      - text: "Publications"
-        href: publications/index.qmd
-      - text: "Ongoing Research"
-        href: workingpapers/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
-      - text: "Teaching"
-        href: teaching/index.qmd
-    
-    # your social media handles
-    right:
-      - icon: google
-        href: https://scholar.google.com/citations?user=f5PXRCsAAAAJ&hl=es
-      - icon: twitter
-        href: https://twitter.com/quiqueclari1
-      - icon: linkedin
-        href: https://www.linkedin.com/in/enrique-clari-galán-012428124/
-      - icon: envelope
-        aria-label: email
-        href: "mailto:mail.enrique.clari@uam.es"  
-  
-  
-
-# Don't touch unless you know what you are doing :) ------------
-  search: 
-    location: navbar
-    type: textbox
-  page-footer: 
-    center: |
-      <span class="faux-block">&#169; 2024 Quique Clari Powered by Quarto Based on Marvin Schmitt </span>
-    
 project:
   type: website
   output-dir: docs
-
-  preview: 
+  render:
+    - index.qmd
+    - publications/index.qmd
+    - workingpapers/index.qmd
+    - cv/index.qmd
+    - teaching/index.qmd
+    - 404.qmd
+  resources:
+    - /html/fonts/
+    - /cv/CV_website.pdf
+    - /workingpapers/*.pdf
+  preview:
     port: 22222
     browser: true
     watch-inputs: true
     navigate: true
+
+website:
+  title: "Quique Clari"
+  description: "Political science researcher at the Autonomous University of Madrid, studying Europeans’ attitudes towards democracy."
+  site-url: https://quiqueclari.github.io
+  image: img/my_image.jpg
+  favicon: img/favicon.png
+  navbar:
+    pinned: true
+    background: "#faf9f6"
+    foreground: "#253638"
+    right:
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Research"
+        href: workingpapers/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+  search: false
+  page-footer:
+    border: false
+    left: |
+      <span class="footer-name">© 2026 Quique Clari</span>
+      <span class="footer-credit">Built with <a href="https://quarto.org/">Quarto</a> · Adapted from <a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt’s template</a></span>
+    right:
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=f5PXRCsAAAAJ&hl=es
+      - text: ORCID
+        href: https://orcid.org/0000-0002-2941-0332
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/enrique-clari-galán-012428124/
+      - text: Twitter
+        href: https://twitter.com/quiqueclari1
 
 execute:
   freeze: true
 
 format:
   html:
-    fontsize: 1.1em
-    theme: 
-      - cosmo 
+    lang: en
+    fontsize: 17px
+    theme:
+      - cosmo
       - html/styles.scss
+    grid:
+      body-width: 1080px
+      sidebar-width: 0px
+      margin-width: 0px
+      gutter-width: 1.5rem
     toc: false
     code-link: true
-    anchor-sections: true
+    anchor-sections: false
+    include-before-body: html/skip-link.html
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true

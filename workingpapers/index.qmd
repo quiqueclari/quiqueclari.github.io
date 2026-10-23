@@ -1,42 +1,27 @@
 ---
-title: "Ongoing Research"
+title: "Ongoing research"
 ---
 
-### Do Ordinary Citizens Support Liberal Democracy?
+::: {.paper-entry}
+## Do Ordinary Citizens Support Liberal Democracy? {#do-ordinary-citizens-support-liberal-democracy}
 
-*Enrique Clari* 
+Enrique Clari
 
-{{< pdf ECPR_2023_ch1_presentation.pdf >}}
+[View presentation (PDF) ↗](ECPR_2023_ch1_presentation.pdf){.text-link}
+:::
 
-----
+::: {.paper-entry}
+## The End of ‘Critical Citizens’? {#the-end-of-critical-citizens}
 
+Enrique Clari
 
-### The End of 'Critical Citizens'?
+[View presentation (PDF) ↗](ECPR_2023_ch2_presentation.pdf){.text-link}
+:::
 
-*Enrique Clari*
+::: {.paper-entry}
+## Populist Attitudes and Support for Democracy {#populist-attitudes-and-support-for-democracy}
 
-{{< pdf ECPR_2023_ch2_presentation.pdf >}}
+Enrique Clari and José Javier Olivas-Osuna
 
-----
-
-### Populist Attitudes and Support for Democracy
-
-*Enrique Clari and José Javier Olivas-Osuna*
-
-{{< pdf 2023_CES_presentation.pdf >}}
-
-----
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://orcid.org/0000-0002-2941-0332" role="button" target="_blank" style="padding: 15px 30px;">Link to ORCID profile</a>
-</div>
-```
-
-
-
-
-
-
-
-
+[View presentation (PDF) ↗](2023_CES_presentation.pdf){.text-link}
+:::

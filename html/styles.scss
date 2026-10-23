@@ -1,120 +1,211 @@
 /*-- scss:defaults --*/
-
-/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
-
-$white:    #ffffff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #373a3c !default;
-$gray-900: #212529 !default;
-$black:    #000000 !default;
-
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
-$yellow:  #F6D645 !default;
-$green:   #118230 !default;
-$teal:    #068194 !default;
-$cyan:    #3093CF !default;
-
-$primary:   $teal!default;
-$secondary: $gray-700 !default;
-$success:   $green !default;
-$info:      $cyan !default;
-$warning:   $orange !default;
-$danger:    $red !default;
-$light:     $gray-400 !default;
-$dark:      $black !default;
-
-
-
-// Links
-$link-color: $primary !default;
-$link-decoration: none !default;
-$link-hover-color: $red !default;
-$link-hover-decoration: underline !default;
-
-// Footer
-$footer-bg: $gray-900 !default;
-$footer-fg: $gray-300 !default;
-
-// Inline code
-$code-bg: $gray-200 !default;
-$code-color: $gray-900 !default;
-
-// TOC
-$toc-color: $orange;
-$toc-font-size: 1em;
-
-// Code copy
-$btn-code-copy-color-active: $orange !default;
-
+$web-font-path: false;
+$font-family-sans-serif: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-serif: "Newsreader", Georgia, serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 400;
+$body-bg: #faf9f6;
+$body-color: #253638;
+$primary: #245b5d;
+$secondary: #586764;
+$light: #faf9f6;
+$link-color: $primary;
+$link-hover-color: #173e40;
+$link-decoration: underline;
+$link-hover-decoration: underline;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $primary;
+$footer-bg: $body-bg;
+$footer-fg: $secondary;
+$border-color: #dcded7;
+$line-height-base: 1.75;
 
 /*-- scss:rules --*/
-
-
-.nav-footer {
-    align-items: flex-start;  // Align all flex items to the top
-    flex-wrap: wrap;
-    border: 0 !important;
-    min-height: 3em;
-    //font-family: $footer-font-family;
-
-    a {
-        color: $primary;
-    }
-
-    .faux-block {
-        display: block;
-        padding-bottom: 0.4em;
-    }
-
-    // In the default Quarto template, .nav-footer-center has position: absolute 
-    // turned on, which makes the div not be a flex item
-    // This changes that so that it *is* a flex item
-    .nav-footer-center {
-        text-align: center;
-        position: inherit;
-        margin-top: 0;
-
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            margin-top: 0.5em;
-            margin-bottom: 1.5em;
-        }
-    }
-
-    // When the screen is medium or smaller, make each footer chunk be 100% width 
-    // and centered; otherwise make them be 33% width and left/right/centerd
-    .nav-footer-left,
-    .nav-footer-right,
-    .nav-footer-center {
-        text-align: center;
-        width: 100%;
-        min-height: 2em;
-    }
-
-    @media (min-width: map-get($grid-breakpoints, md)) {
-        .nav-footer-left {
-            text-align: left;
-        }
-
-        .nav-footer-right {
-            text-align: right;
-        }
-
-        .nav-footer-left,
-        .nav-footer-right,
-        .nav-footer-center {
-            flex: 1 1 33%;
-        }
-    }
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(/html/fonts/manrope-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(/html/fonts/manrope-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url(/html/fonts/newsreader-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url(/html/fonts/newsreader-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root { --site-line: #dcded7; --site-muted: #586764; }
+html { scroll-padding-top: 7rem; }
+body { -webkit-font-smoothing: antialiased; }
+::selection { background: #dce9e4; }
+a { text-underline-offset: .23em; text-decoration-thickness: 1px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid $primary; outline-offset: 5px; border-radius: 2px; }
+.skip-link { position: fixed; top: -8rem; left: 1rem; z-index: 2000; padding: .75rem 1rem; background: $body-color; color: white; }
+.skip-link:focus { top: .75rem; color: white; }
+
+/* Navigation */
+#quarto-header { border-bottom: 1px solid var(--site-line); }
+.navbar { padding: 1.15rem 1.5rem; }
+.navbar > .navbar-container { width: 100%; max-width: 1080px; margin-inline: auto; padding-inline: 0; }
+.navbar-brand { font-family: $font-family-sans-serif; font-size: 1.12rem; font-weight: 700; letter-spacing: -.035em; }
+.navbar-brand, .nav-link { text-decoration: none; }
+.navbar-nav { gap: 1.45rem; }
+.navbar .nav-link { font-size: .86rem; font-weight: 500; padding: .35rem 0 !important; }
+.navbar .nav-link.active { color: $primary; box-shadow: 0 1px 0 $primary; }
+.navbar .nav-link:hover { color: $primary; }
+.navbar-toggler { border: 0; padding: .4rem; }
+
+/* Shared page typography */
+main.content { padding-top: 3.6rem; padding-bottom: 4rem; }
+#title-block-header { margin-bottom: 2.75rem; }
+#title-block-header h1 { font-size: clamp(2.7rem, 5vw, 3.7rem); line-height: 1.12; letter-spacing: -.035em; }
+h2 { font-size: 2rem; letter-spacing: -.025em; border-bottom: 0; padding-bottom: 0; }
+h3 { font-size: 1.55rem; letter-spacing: -.015em; }
+h1, h2, h3 { text-wrap: balance; font-optical-sizing: auto; font-weight: 400; }
+p { margin-bottom: 1.1rem; }
+.eyebrow { font-size: .7rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: $primary; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; min-height: 48px; padding: .65rem 1.15rem; border-radius: 3px; font-size: .82rem; font-weight: 600; text-decoration: none; }
+.btn-primary { color: white; }
+.btn-outline-primary { border-color: #9cafaa; }
+.file-label { font-size: .63rem; font-weight: 500; letter-spacing: .04em; opacity: .8; }
+.text-link { font-size: .8rem; font-weight: 600; }
+
+/* Homepage */
+.home #title-block-header { display: none; }
+.home main.content { padding-top: 0; padding-bottom: 0; }
+.home-hero { display: grid; grid-template-columns: minmax(0, 1fr) 300px; align-items: center; gap: clamp(2.5rem, 6vw, 6rem); padding: 4.6rem 0 4.3rem; }
+.hero-copy .eyebrow { margin-bottom: 1.2rem; }
+.hero-copy h1 { font-size: clamp(3.7rem, 7vw, 5.4rem); line-height: 1; letter-spacing: -.045em; margin: 0 0 1.15rem; }
+.hero-role { font-size: .84rem; line-height: 1.75; color: var(--site-muted); margin-bottom: 1.6rem; }
+.hero-intro { max-width: 33rem; font-size: 1.05rem; line-height: 1.75; margin-bottom: 1.8rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .65rem; margin-bottom: 1.15rem; }
+.hero-email { font-size: .77rem; overflow-wrap: anywhere; }
+.hero-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 6; object-fit: cover; object-position: center; border-radius: 5px; }
+.home-section { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 3rem; padding: 3rem 0; border-top: 1px solid var(--site-line); }
+.section-heading h2 { margin: 0 0 1rem; font-size: 1.95rem; }
+.section-copy { font-size: .92rem; }
+.section-copy p:last-child { margin-bottom: 0; }
+.research-row { padding: 1.55rem 0; border-top: 1px solid var(--site-line); }
+.research-row:first-child { padding-top: 0; border-top: 0; }
+.research-row:last-child { padding-bottom: 0; }
+.research-row h3 { margin: 0 0 .5rem; font-size: 1.55rem; line-height: 1.25; }
+.research-row h3 a { color: $body-color; text-decoration: none; }
+.research-row h3 a:hover { color: $primary; text-decoration: underline; }
+.research-row p { margin: 0; color: var(--site-muted); font-size: .79rem; }
+.contact-note { border-top: 1px solid var(--site-line); padding: 2rem 0 3rem; font-size: .85rem; }
+.contact-note p { margin-bottom: 0; }
+
+/* Publications, research, teaching, and CV */
+.publication-section > h2 { margin: 3rem 0 .5rem; }
+.publication-section:first-of-type > h2 { margin-top: 0; }
+.publication-entry { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem; padding: 1.8rem 0; border-bottom: 1px solid var(--site-line); }
+.publication-year { color: var(--site-muted); font-size: .8rem; padding-top: .2rem; font-variant-numeric: tabular-nums; }
+.publication-year p { margin: 0; }
+.publication-body h3 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 .65rem; text-wrap: pretty; }
+.publication-body h3 a { color: $body-color; text-decoration: none; }
+.publication-body h3 a:hover { color: $primary; text-decoration: underline; }
+.publication-body p { margin: .35rem 0; font-size: .83rem; }
+.publication-body .publication-venue { color: var(--site-muted); }
+.publication-links { margin-top: .75rem !important; }
+.publication-links a { font-size: .76rem; font-weight: 600; margin-right: 1rem; }
+.paper-entry { padding: 2rem 0; border-bottom: 1px solid var(--site-line); }
+.paper-entry:first-of-type { padding-top: 0; }
+.paper-entry h2 { margin: 0 0 .65rem; font-size: 1.9rem; line-height: 1.25; }
+.paper-entry p { color: var(--site-muted); font-size: .85rem; }
+.paper-entry .text-link { color: $primary; }
+.cv-download { margin-bottom: 2.5rem; }
+.cv-section { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 3rem; padding: 2rem 0; border-top: 1px solid var(--site-line); }
+.cv-section h2 { margin: 0; }
+.cv-section h3 { margin: 0 0 .5rem; }
+.cv-section p { font-size: .9rem; }
+.cv-section p:last-child { margin-bottom: 0; }
+.cv-details { margin-top: 2rem; border-top: 1px solid var(--site-line); padding-top: 1.5rem; }
+.cv-details summary { color: $primary; font-size: .85rem; cursor: pointer; }
+.cv-frame { display: block; width: 100%; height: 75vh; min-height: 400px; margin-top: 1.5rem; border: 1px solid var(--site-line); background: white; }
+.teaching-list { margin-top: 1.75rem; }
+.teaching-entry { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem; padding: 1.75rem 0; border-top: 1px solid var(--site-line); }
+.teaching-entry h3 { margin: 0 0 .5rem; }
+.teaching-entry p { font-size: .85rem; color: var(--site-muted); margin: 0; }
+
+/* Footer */
+.nav-footer { border-top: 1px solid var(--site-line) !important; max-width: 1080px; margin-inline: auto; padding: 1.65rem 0 2rem; gap: 1.5rem; align-items: flex-start; }
+.nav-footer-left, .nav-footer-right { flex: 1 1 auto; }
+.nav-footer-center { display: none; }
+.footer-name { display: block; font-size: .75rem; color: $body-color; }
+.footer-credit { display: block; font-size: .62rem; margin-top: .35rem; }
+.footer-credit a { color: inherit; }
+.nav-footer-right .nav { justify-content: flex-end; gap: 1rem; }
+.nav-footer-right .nav-link { padding: 0; font-size: .72rem; color: $primary; }
+.nav-footer-right .nav-link:hover { text-decoration: underline; }
+
+@media (max-width: 1199.98px) {
+  .nav-footer { margin-inline: 1.5rem; }
+}
+@media (max-width: 991.98px) {
+  .navbar { padding: .85rem 1.5rem; }
+  .navbar-brand-container { margin-left: 0 !important; margin-right: auto !important; }
+  .navbar-nav { gap: .25rem; padding-top: .8rem; padding-bottom: .35rem; }
+  .navbar .nav-link { min-height: 44px; display: flex; align-items: center; }
+  .navbar .nav-link.active { box-shadow: none; font-weight: 700; }
+  .home-hero { grid-template-columns: minmax(0, 1fr) 255px; gap: 2rem; padding-block: 3.5rem; }
+  .home-section, .cv-section { grid-template-columns: 190px minmax(0, 1fr); gap: 2rem; }
+  .nav-footer { flex-direction: column; }
+  .nav-footer-right .nav { justify-content: flex-start; }
+}
+@media (max-width: 767.98px) {
+  main.content { padding-top: 2rem; padding-bottom: 2.5rem; }
+  #title-block-header { margin-bottom: 2rem; }
+  .home-hero { grid-template-columns: 1fr; padding: 2.6rem 0; gap: 2rem; }
+  .hero-copy h1 { font-size: clamp(3.5rem, 13vw, 4.5rem); }
+  .hero-intro { font-size: 1rem; }
+  .hero-role { font-size: .78rem; }
+  .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+  .hero-actions .btn { padding-inline: .6rem; gap: .4rem; font-size: .75rem; }
+  .hero-portrait { max-width: 240px; }
+  .hero-portrait img { aspect-ratio: 1; }
+  .home-section, .cv-section { grid-template-columns: 1fr; gap: 1.25rem; padding-block: 2rem; }
+  .section-heading h2 { margin-bottom: .5rem; }
+  .section-heading p { margin-bottom: 0; }
+  .publication-entry, .teaching-entry { grid-template-columns: 1fr; gap: .55rem; }
+  .publication-body h3 { font-size: 1.4rem; }
+  .paper-entry h2 { font-size: 1.7rem; }
+  .contact-note { padding-block: 1.5rem 2.5rem; }
+  .nav-footer { gap: .8rem; text-align: left; }
+  .nav-footer-left, .nav-footer-right { text-align: left; width: 100%; }
+  .nav-footer-right .nav { gap: .4rem 1.1rem; flex-wrap: wrap; }
+  .nav-footer-right .nav-link { min-height: 44px; display: flex; align-items: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}
+@media (max-width: 359.98px) {
+  .hero-actions { grid-template-columns: 1fr; }
+}
+
+.publication-nav { border-bottom: 1px solid var(--site-line); padding-bottom: 1.2rem; margin-bottom: 2.5rem; }
+.publication-nav p { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; margin: 0; font-size: .82rem; }
+
+.cv-section .section-copy > section + section { margin-top: 1.75rem; }
+.teaching-entry { grid-template-columns: 6rem minmax(0, 1fr); }
+@media (max-width: 767.98px) { .teaching-entry { grid-template-columns: 1fr; } }

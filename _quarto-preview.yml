@@ -1,0 +1,5 @@
+project:
+  output-dir: .preview
+  preview:
+    port: 22222
+    browser: true
